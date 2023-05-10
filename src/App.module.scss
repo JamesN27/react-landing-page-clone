@@ -14,7 +14,8 @@
 
 a {
   color: #323233;
-
+  text-transform: none;
+  text-decoration: none;
   font-weight: 800;
   font-size: 2rem;
   line-height: 3rem;
@@ -27,11 +28,13 @@ a {
 }
 
 main {
-  padding-top: 85px;
+  padding-top: 79px;
 }
 
 .top-div {
   background-color: #f9f8f2;
+  margin-left: 343px;
+  margin-top: 80px;
 }
 
 .top-div h1 {
@@ -40,22 +43,26 @@ main {
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
+  letter-spacing: -1px;
+  margin-top: -7px;
 }
 
 .top-div p {
   color: #525252;
-
+  margin-top: -8px;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
+  font-family: 'Inter', sans-serif !important;
 }
 
 h6 {
   color: #737373;
-
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  margin-top: 8px;
+  margin-left: 4px;
 }
 
 .email-input-container input {
@@ -66,6 +73,33 @@ h6 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   --tw-border-opacity: 1;
-  border-color: #828282;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border: 1px solid white;
   border-radius: 0.375rem;
+  width: 12.5%;
+  margin-top: 11px;
+}
+
+.email-input-container input::placeholder {
+  font-family: 'Inter', sans-serif;
+}
+.submit-button {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+  outline-offset: 2px;
+  outline-width: 2px;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  justify-content: center;
+  display: inline-flex;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  width: 7%;
+  text-transform: none;
 }
