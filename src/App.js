@@ -76,14 +76,22 @@ export default function App() {
             Afterlife allows all Indians to secure their family's future without
             the need of expensive lawyers.
           </p>
+          <ul>list items</ul>
         </section>
       </main>
 
-      <footer>my footer</footer>
+      <footer className={styles.Footer}>
+        <p>
+          © Copyright 2023. All rights reserved. <br /> Made with ♥ in Delhi,
+          India.
+        </p>
+        <form className={styles['email-input-container-2']}>
+          <input type="email" placeholder="Email" />
+          <button type className={styles['submit-button-2']}>
+            GET ACCESS
+          </button>{' '}
+        </form>
+      </footer>
     </>
   );
 }
-
-// display: block;
-//  margin-top: -20px;
-//  margin-bottom: -8px;
