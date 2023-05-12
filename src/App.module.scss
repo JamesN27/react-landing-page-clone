@@ -3,13 +3,31 @@
   background-color: #f9f8f2;
   height: 48px;
   padding: 32px;
-  position: fixed;
+  position: static;
   top: 0;
   left: 0;
   right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.Middlesection h2 {
+  color: #fff;
+  --tw-text-opacity: 1;
+  letter-spacing: -0.025em;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 0;
+}
+
+.Middlesection p {
+  color: #a3a3a3;
+  --tw-text-opacity: 1;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  margin-top: 0.5rem;
 }
 
 a {
@@ -24,7 +42,7 @@ a {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  margin-left: -617px;
+  margin-left: -608px;
 }
 
 main {
@@ -33,6 +51,7 @@ main {
 
 .Topsection {
   background-color: #f9f8f2;
+  margin-top: -119px;
 }
 
 .top-div {
@@ -110,4 +129,16 @@ h6 {
 
 .Middlesection {
   background-color: #171717;
+  height: 132.5vh;
+  margin-top: 184px;
+}
+
+.Middlesection div {
+  margin-left: 343px;
+  padding-top: 128px;
+}
+
+.Downsection {
+  background-color: #f9f8f2;
+  height: 130vh;
 }

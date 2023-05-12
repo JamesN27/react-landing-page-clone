@@ -1,3 +1,5 @@
+// https://www.afterlifeco.in/
+
 import styles from './App.module.scss';
 
 export default function App() {
@@ -31,12 +33,12 @@ export default function App() {
         <section className={styles.Middlesection}>
           <div>
             <h2>
-              Manage, safeguard, and update the most important information at
-              your fingertips.
+              Manage, safeguard, and update the most important <br />
+              information at your fingertips.
             </h2>
             <p>
               Your family's future is too important be left to some stale piece
-              of paper hidden in some box along with winter clothing.
+              of paper hidden in some <br /> box along with winter clothing.
             </p>
           </div>
           <br />
@@ -57,6 +59,7 @@ export default function App() {
             assets, add details including notes, photos, deeds and certificates.
           </span>
         </section>
+        <section className={styles.Downsection}>third section</section>
       </main>
 
       <footer>my footer</footer>
