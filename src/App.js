@@ -1,5 +1,7 @@
 // https://www.afterlifeco.in/
 
+// IMPORTANT: Please notice that I completely misunderstood the assignment, and also missed parts of Elenas lovely lecture, so not only didnt I use grid of Flex but I also tried to position everything exactly like in the original page. So this was a huge waste of time and code in that sense. I did learn a lot actually, so do not get me wrong, but I would obviously need to redo the whole proejct with the knowledge I have now, and I am not doing that right now as I have my head in the actice projects. Otherwise have fun looking at this ocd mess ;)
+
 import styles from './App.module.scss';
 
 export default function App() {

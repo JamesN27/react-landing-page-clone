@@ -108,7 +108,8 @@ h6 {
 }
 .submit-button {
   --tw-bg-opacity: 1;
-  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+  //background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+  background-color: #262626;
   outline-offset: 2px;
   outline-width: 2px;
   --tw-text-opacity: 1;
@@ -121,7 +122,7 @@ h6 {
   border-radius: 0.5rem;
   justify-content: center;
   display: inline-flex;
-  margin-left: 0.5rem;
+  margin-left: 0.6rem;
   cursor: pointer;
   width: 7%;
   text-transform: none;
